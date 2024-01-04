@@ -1,0 +1,25 @@
+{
+  "name": "@demo/hello-world",
+  "version": "0.0.1",
+  "description": "",
+  "license": "ISC",
+  "author": "fanwenjie.fe@bytedance.com",
+  "maintainers": [],
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "tsc -b tsconfig.build.json",
+    "dev": "node -r sucrase/register src/index.ts",
+    "lint": "eslint ./ --cache"
+  },
+  "dependencies": {
+    "openai": "^4.23.0"
+  },
+  "devDependencies": {
+    "@tecvan-infra/eslint-config": "workspace:*",
+    "@tecvan-infra/ts-config": "workspace:*",
+    "@types/node": "^18",
+    "eslint": "^8.54.0",
+    "sucrase": "^3.32.0",
+    "typescript": "~5.0.4"
+  }
+}

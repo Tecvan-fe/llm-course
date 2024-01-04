@@ -417,11 +417,16 @@
     },
     {
       "packageName": "@tecvan-infra/ts-config",
-      "projectFolder": "config/ts-config",
+      "projectFolder": "config/ts-config"
     },
     {
       "packageName": "@tecvan-infra/eslint-plugin",
-      "projectFolder": "infra/eslint-plugin",
+      "projectFolder": "infra/eslint-plugin"
+    },
+    {
+      "packageName": "@demo/hello-world",
+      "tags": ["demo"],
+      "projectFolder": "examples/hello-world"
     }
   ]
 }
