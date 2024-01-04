@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "styled-components.vscode-styled-components",
+    "cpylua.language-postcss",
+    "EditorConfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "drKnoxy.eslint-disable-snippets",
+    "mkaufman.htmlhint",
+    "streetsidesoftware.code-spell-checker",
+    "codezombiech.gitignore",
+    "aaron-bond.better-comments",
+    "jasonnutter.search-node-modules",
+    "mikestead.dotenv",
+    "vscode-icons-team.vscode-icons"
+  ],
+  "unwantedRecommendations": [
+    "nucllear.vscode-extension-auto-import",
+    "steoates.autoimport"
+  ]
+}
