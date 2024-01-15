@@ -1,2 +1,2 @@
-import { run } from './dir-loader';
+import { run } from './loaders/dir-loader';
 run();
