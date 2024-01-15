@@ -427,6 +427,11 @@
       "packageName": "@demo/hello-world",
       "tags": ["demo"],
       "projectFolder": "examples/hello-world"
+    },
+    {
+      "packageName": "@demo/code-to-embedding",
+      "tags": ["demo"],
+      "projectFolder": "examples/code-to-embedding"
     }
   ]
 }
