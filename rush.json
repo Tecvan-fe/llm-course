@@ -432,6 +432,10 @@
       "packageName": "@demo/code-to-embedding",
       "tags": ["demo"],
       "projectFolder": "examples/code-to-embedding"
+    },
+    {
+      "packageName": "@demo/upload-file",
+      "projectFolder": "apps/upload-file"
     }
   ]
 }
