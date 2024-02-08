@@ -1,2 +1,2 @@
-import { run } from './loaders/dir-loader';
+import { run } from './embedding/hf';
 run();
