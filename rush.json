@@ -24,7 +24,7 @@
    * Specify one of: "pnpmVersion", "npmVersion", or "yarnVersion".  See the Rush documentation
    * for details about these alternatives.
    */
-  "pnpmVersion": "7.33.5",
+  "pnpmVersion": "8.5.0",
   // "npmVersion": "6.14.15",
   // "yarnVersion": "1.9.4",
   /**
@@ -38,7 +38,7 @@
    * LTS schedule: https://nodejs.org/en/about/releases/
    * LTS versions: https://nodejs.org/en/download/releases/
    */
-  "nodeSupportedVersionRange": ">=14.15.0 <15.0.0 || >=16.13.0 <17.0.0 || >=18.15.0 <19.0.0",
+  "nodeSupportedVersionRange": ">=16.13.0",
   /**
    * If the version check above fails, Rush will display a message showing the current
    * node version and the supported version range. You can use this setting to provide
@@ -296,13 +296,13 @@
    */
   // "hotfixChangeEnabled": false,
   /**
-    * This is an optional, but recommended, list of allowed tags that can be applied to Rush projects
-    * using the "tags" setting in this file.  This list is useful for preventing mistakes such as misspelling,
-    * and it also provides a centralized place to document your tags.  If "allowedProjectTags" list is
-    * not specified, then any valid tag is allowed.  A tag name must be one or more words
-    * separated by hyphens or slashes, where a word may contain lowercase ASCII letters, digits,
-    * ".", and "@" characters.
-    */
+   * This is an optional, but recommended, list of allowed tags that can be applied to Rush projects
+   * using the "tags" setting in this file.  This list is useful for preventing mistakes such as misspelling,
+   * and it also provides a centralized place to document your tags.  If "allowedProjectTags" list is
+   * not specified, then any valid tag is allowed.  A tag name must be one or more words
+   * separated by hyphens or slashes, where a word may contain lowercase ASCII letters, digits,
+   * ".", and "@" characters.
+   */
   // "allowedProjectTags": [ "tools", "frontend-team", "1.0.0-release" ],
   /**
    * (Required) This is the inventory of projects to be managed by Rush.
@@ -434,8 +434,8 @@
       "projectFolder": "examples/code-to-embedding"
     },
     {
-      "packageName": "@demo/upload-file",
-      "projectFolder": "apps/upload-file"
+      "packageName": "@tecvan-infra/logger",
+      "projectFolder": "packages/logger"
     }
   ]
 }

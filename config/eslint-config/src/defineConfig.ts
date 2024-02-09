@@ -2,7 +2,7 @@ import path from 'path';
 
 import type { ESLintConfig, Rules } from 'eslint-define-config';
 
-type ESLintConfigMode = 'web' | 'node' | 'base';
+type ESLintConfigMode = 'react' | 'node' | 'base' | 'vue';
 
 export interface EnhanceESLintConfig extends ESLintConfig {
   /**

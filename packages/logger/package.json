@@ -1,7 +1,7 @@
 {
-  "name": "@demo/upload-file",
+  "name": "@tecvan-infra/logger",
   "version": "0.0.1",
-  "description": "demo of uploading file",
+  "description": "common logger for current monorepo",
   "license": "ISC",
   "author": "fanwenjie.fe@bytedance.com",
   "maintainers": [],
@@ -13,7 +13,10 @@
     "test": "vitest --run --passWithNoTests",
     "test:cov": "npm run test -- --coverage"
   },
-  "dependencies": {},
+  "dependencies": {
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.0"
+  },
   "devDependencies": {
     "@tecvan-infra/eslint-config": "workspace:*",
     "@tecvan-infra/ts-config": "workspace:*",
