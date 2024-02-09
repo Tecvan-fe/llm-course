@@ -1,7 +1,7 @@
 {
-  "name": "@demo/upload-file",
+  "name": "@big-file/file-storage",
   "version": "0.0.1",
-  "description": "demo of uploading file",
+  "description": "file storage implements",
   "license": "ISC",
   "author": "fanwenjie.fe@bytedance.com",
   "maintainers": [],
@@ -13,7 +13,9 @@
     "test": "vitest --run --passWithNoTests",
     "test:cov": "npm run test -- --coverage"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tecvan-infra/logger": "workspace:*"
+  },
   "devDependencies": {
     "@tecvan-infra/eslint-config": "workspace:*",
     "@tecvan-infra/ts-config": "workspace:*",

@@ -12,7 +12,9 @@
     "aaron-bond.better-comments",
     "jasonnutter.search-node-modules",
     "mikestead.dotenv",
-    "vscode-icons-team.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin"
   ],
   "unwantedRecommendations": [
     "nucllear.vscode-extension-auto-import",

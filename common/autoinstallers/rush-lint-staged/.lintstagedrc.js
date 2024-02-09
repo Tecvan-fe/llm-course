@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports = {
-  '**/*.{ts,tsx,js,jsx,mjs}': async files => {
+  '**/*.{ts,tsx,js,jsx,mjs,vue}': async files => {
     const match = micromatch.not(files, [
       '**/common/_templates/!(_*)/**/(.)?*',
     ]);
